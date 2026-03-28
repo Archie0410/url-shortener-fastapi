@@ -4,6 +4,13 @@ A scalable, production-ready URL shortener built with **FastAPI**, **PostgreSQL*
 
 Converts long URLs into compact Base62-encoded short codes, redirects users with sub-millisecond cache hits, tracks click counts, and supports optional link expiry.
 
+## 🌐 Live Demo
+
+- API Base: https://url-shortener-fastapi-ifdx.onrender.com  
+- Example Short URL: https://url-shortener-fastapi-ifdx.onrender.com/1  
+- API Docs: https://url-shortener-fastapi-ifdx.onrender.com/docs  
+
+👉 The example demonstrates real-time redirection to my GitHub profile.
 ---
 
 ## Table of Contents

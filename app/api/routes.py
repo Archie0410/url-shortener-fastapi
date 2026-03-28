@@ -18,6 +18,15 @@ logger = logging.getLogger(__name__)
 router = APIRouter()
 
 
+@router.get("/", tags=["ops"])
+def root() -> dict[str, str]:
+    return {
+        "message": "URL Shortener API is running",
+        "docs": "/docs",
+        "health": "/health",
+    }
+
+
 @router.get("/health", tags=["ops"])
 def health() -> dict[str, str]:
     return {"status": "ok"}
